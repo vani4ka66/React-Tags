@@ -1,7 +1,10 @@
 import "./App.css";
+import Tag from "./Tag";
 
 function App() {
   return (
+   
+
     <div className="App">
       <section class="hero">
         <div class="hero-body">
@@ -11,6 +14,7 @@ function App() {
       </section>
       <div class="container is-fullhd">
         <div class="notification">
+          <Tag tags={["boomdotdev","task","tags", "react"]} /> 
           Edit the <code>./src</code> folder to add components.
         </div>
       </div>
