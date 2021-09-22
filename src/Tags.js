@@ -1,7 +1,7 @@
 import React from "react";
 import App from "./App";
 
-export default class Tag extends React.Component {
+export default class Tags extends React.Component {
     constructor(props){
         super(props)
     }
